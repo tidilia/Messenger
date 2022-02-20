@@ -17,7 +17,6 @@ class LoginViewController: UIViewController {
     
     override func loadView() {
         super.loadView()
-        view.backgroundColor = UIColor(red: (255/255.0), green: (162/255.0), blue: (215/255.0), alpha: 1.0)
     }
     
     override func viewDidLoad() {
@@ -71,7 +70,6 @@ class LoginViewController: UIViewController {
     }
     
     private func setViews(){
-        view.backgroundColor = UIColor(red: (255/255.0), green: (162/255.0), blue: (215/255.0), alpha: 1.0)
         siginButton.layer.cornerRadius = 8
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyBoard))
